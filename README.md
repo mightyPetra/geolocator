@@ -1,4 +1,4 @@
-# Geoplocator App
+# Geolocator App
 Technical task for Eurofins Genomics
 
 ## Tech Stack
