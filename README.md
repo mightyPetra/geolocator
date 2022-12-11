@@ -1,4 +1,4 @@
-# Geolocator App
+# :earth_africa: Geolocator App
 Technical task for Eurofins Genomics
 
 ### Tech Stack
