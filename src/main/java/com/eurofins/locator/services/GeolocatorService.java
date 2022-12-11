@@ -86,7 +86,7 @@ public class GeolocatorService {
         locationEntity.setLoc(ipLocationDTO.getLoc());
 
         locationEntity = getLocationEntity(locationEntity);
-        ipEntity.setLocationEntity(locationEntity);
+        ipEntity.setLocation(locationEntity);
         return ipEntity;
     }
 }

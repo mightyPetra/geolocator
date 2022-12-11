@@ -13,6 +13,6 @@ public class IpEntity {
     private String id;
     private String ip;
     @DBRef
-    private LocationEntity locationEntity;
+    private LocationEntity location;
 
 }
