@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "ip")
+@Document(collection = "ip_address")
 public class IpEntity {
 
     @Id

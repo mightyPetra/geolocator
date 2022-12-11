@@ -80,13 +80,13 @@ public class GeolocatorService {
         IpEntity ipEntity = new IpEntity();
         ipEntity.setIp(ipLocationDTO.getIp());
 
-        LocationEntity locationEntity = new LocationEntity();
-        locationEntity.setCountry(ipLocationDTO.getCountry());
-        locationEntity.setCity(ipLocationDTO.getCity());
-        locationEntity.setLoc(ipLocationDTO.getLoc());
+        LocationEntity location = new LocationEntity();
+        location.setCountry(ipLocationDTO.getCountry());
+        location.setCity(ipLocationDTO.getCity());
+        location.setLoc(ipLocationDTO.getLoc());
 
-        locationEntity = getLocationEntity(locationEntity);
-        ipEntity.setLocation(locationEntity);
+        location = getLocationEntity(location);
+        ipEntity.setLocation(location);
         return ipEntity;
     }
 }
