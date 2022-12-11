@@ -4,7 +4,7 @@ Technical task for Eurofins Genomics
 ## Tech Stack
 - Java 17
 - SpringBoot
-- Gradle
+- Gradle 7.6
 - MongoDB
 - Docker
 - jUnit5
