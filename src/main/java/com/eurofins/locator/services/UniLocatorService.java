@@ -3,7 +3,7 @@ package com.eurofins.locator.services;
 import com.eurofins.locator.configs.Properties;
 import com.eurofins.locator.dto.UniversityDTO;
 import com.eurofins.locator.utils.CountryUtils;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Service
-@Log4j2
+@Slf4j
 public class UniLocatorService {
 
     private final RestTemplate restTemplate;
